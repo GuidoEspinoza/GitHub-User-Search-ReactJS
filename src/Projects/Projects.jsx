@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useSelector } from 'react-redux';
-// import "./Projects.css"; // Si tienes estilos para Projects
+import "./Projects.css"; 
 
 const Projects = () => {
     const { profile } = useSelector((state) => state.github);
@@ -24,10 +24,14 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <h2>Proyectos de {profile.name}</h2>
-            <a href="/">Volver al buscador</a>
+            <div className='projectsHeader'>
+                <h2>Proyectos de <br /> {profile.name}</h2>
+                <button className='btn-primary'>
+                    <a href="/">Volver al buscador</a>
+                </button>
+            </div>
             {error && <p className="error">{error}</p>}
-            {repos && (
+            {/* {repos && (
                 <ul className="projectsList">
                     {repos.map((repo) => (
                         <li key={repo.id} className="projectsItem">
@@ -38,7 +42,8 @@ const Projects = () => {
                         </li>
                     ))}
                 </ul>
-            )}
+            )} */}
+            <h3>Página en desarrollo</h3>
         </div>
     );
 };

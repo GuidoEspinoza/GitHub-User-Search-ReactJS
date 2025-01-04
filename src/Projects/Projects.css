@@ -1,0 +1,11 @@
+.projects {
+    display       : flex;
+    flex-direction: column;
+    gap           : 3rem;
+}
+
+.projectsHeader {
+    display    : flex;
+    gap        : 3rem;
+    align-items: center;
+}

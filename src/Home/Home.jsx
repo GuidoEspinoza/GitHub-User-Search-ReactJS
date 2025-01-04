@@ -15,12 +15,11 @@ const Home = () => {
         dispatch(fetchGithubProfile(username));
     };
     return (
-        <div>
-            <h1>Buscador de perfiles GitHub</h1>
+        <>
             <SearchBar username={username} setUsername={setUsername} fetchProfile={fetchProfile} />
             {error && <p className="error">{error}</p>}
             <ProfileCard />
-        </div>
+        </>
     )
 }
 

@@ -4,6 +4,7 @@ import "./SearchBar.css";
 const SearchBar = ({ username, setUsername, fetchProfile }) => {
     return (
         <div className="searchBarContainer">
+            <h1>Buscador de perfiles GitHub</h1>
             <form onSubmit={fetchProfile} className="searchBarForm">
                 <input
                     className="searchBarInput"
