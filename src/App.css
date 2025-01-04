@@ -1,0 +1,11 @@
+.app {
+  display       : flex;
+  flex-direction: column;
+  gap           : 2rem;
+  text-align    : center;
+}
+
+.error {
+  color     : var(--secondary-color);
+  margin-top: 10px;
+}

@@ -1,0 +1,73 @@
+.profileCard {
+    display         : flex;
+    flex-direction  : column;
+    padding         : 30px;
+    background-color: var(--background-color);
+    border          : 1px solid var(--primary-color);
+    border-radius   : 10px;
+    gap             : 2rem;
+}
+
+.profileContainer {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+}
+
+.profileImage {
+    width        : 100px;
+    height       : 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border       : 2px solid var(--accent-color);
+}
+
+.profileName {
+    color        : var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.profileDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profileLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileUser {
+    color        : var(--text-color);
+    margin-bottom: 10px;
+}
+
+.profileURL {
+    color          : var(--accent-color);
+    text-decoration: none;
+    font-weight    : bold;
+}
+
+.profileURL:hover {
+    text-decoration: underline;
+}
+
+.containerListaRepositorios {
+    display       : flex;
+    flex-direction: column;
+    gap           : 2rem;
+}
+
+.listaRepositorios {
+    max-width: 800px;
+    width    : 100%;
+    margin   : 0 auto;
+}
+
+.itemListaRepositorio {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}

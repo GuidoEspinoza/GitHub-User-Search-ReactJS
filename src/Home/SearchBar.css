@@ -1,0 +1,20 @@
+.searchBarContaine {
+    text-align   : center;
+    margin-bottom: 20px;
+}
+
+.searchBarForm {
+    display        : flex;
+    justify-content: center;
+    gap            : 10px;
+    margin-top     : 10px;
+}
+
+.searchBarInput {
+    padding      : 10px;
+    border       : 1px solid var(--accent-color);
+    border-radius: 5px;
+    font-size    : 16px;
+    font-family  : 'Orbitron', sans-serif;
+    width        : 300px;
+}
